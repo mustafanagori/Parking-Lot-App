@@ -1,0 +1,75 @@
+*{
+    margin: 0% ;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 50px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gainsboro;
+    text-decoration: underline;
+    letter-spacing: 5px;
+
+}
+.parkingLot{
+
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+.parkingLot > div{
+
+    width: 200px;
+    height: 160px;
+    border: 1px solid black;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;letter-spacing: 2px;
+    
+}
+
+.btnDiv{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.btnDiv > button{
+    width: 28%;
+    padding: 5px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: darkgoldenrod;
+    font-weight:  bolder;
+    background-color: gray;
+    border-radius: 200px;
+    color:white;
+
+}
+
+.btnDiv > button:hover{
+  background-color: gray;
+  background-color: darkgoldenrod;
+  color: white;
+}
+
+.green{
+    background-color: green;
+    background-image: unset;
+
+}
+.red{
+    font-size: 320px;
+    color: black;
+    background-image: url(./img/bestcaar.jpg);
+    background-size: 100%;
+}
